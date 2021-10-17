@@ -30,7 +30,7 @@ public class IDemoCanvas extends JPanel{
         Graphics2D g2 = (Graphics2D) g;
 
         for (int i = 0; i < pictures.size(); i++) {
-            IRender pic = pictures.get(1);
+            IRender pic = pictures.get(i);
             pic.render(g2);
             if(i == selectIndex) {
                 g2.setStroke(new BasicStroke(5));

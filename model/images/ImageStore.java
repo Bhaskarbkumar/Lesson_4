@@ -16,7 +16,7 @@ public class ImageStore {
 
     static {
         airplane = readImage("model/images/airplane.jpg", 80, 60);
-        car = readImage("model/images/car.jpg", 70, 50);
+        car = readImage("model/images/car.png", 70, 50);
         dog = readImage("model/images/dog.jpg", 70, 50);
         bird = readImage("model/images/bird.jpg", 70, 50);
     }
